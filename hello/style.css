@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Hind Siliguri";
+    src: url("../../../Junk/HindSiliguri-Bold.ttf");
+    src: url("../../../Junk/HindSiliguri-Regular.ttf");
+}
+.block{
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 555px;
+    height: 296px;
+}
+
+.text{
+    width: 249px;
+    height: 147px;
+    
+}
+
+.description{
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+    text-transform: uppercase;
+    /* #E6EDF2 */
+    color: #F4F9FC;
+    opacity: 0.6;
+}
+
+.title{
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    /* or 130% */
+    /* #E6EDF2 */
+    color: #F4F9FC;
+}
+
+.link{
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height, or 193% */
+    text-transform: uppercase;
+    /* #E6EDF2 */
+    color: #F4F9FC;
+}
