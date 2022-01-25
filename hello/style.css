@@ -9,6 +9,8 @@
     box-sizing: border-box;
     width: 555px;
     height: 296px;
+    display: inline-block;
+    
 }
 
 .text{
@@ -51,4 +53,14 @@
     text-transform: uppercase;
     /* #E6EDF2 */
     color: #F4F9FC;
+}
+
+.container{
+    max-width: 1140px;
+    max-height: 333px;
+}
+
+img{
+    
+    
 }
