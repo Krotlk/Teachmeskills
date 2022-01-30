@@ -1,13 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 .tabs-panel{
-    max-width: 1170px;
+    width: 1170px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #C6CBCD;
+
 }
 
-.tabs{
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 10px;
+.tab{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex; /* Отображать как строчный элемент */
+    padding: 15px;
     width: 203px;
     align-items: center;
     justify-content: center;
@@ -17,12 +27,30 @@
     cursor: pointer;
 }
 
-.content{
-    max-width: 1170px;
-    border: 1px solid black;
+.tab-active{
+    border: 1px solid #C6CBCD; /* Рамка вокруг текста */
+    border-radius: 8px 8px 0 0;
+    border-bottom: none;
+}
+
+.container{
+    width: 1170px;
+    height: 500px;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
     
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
 .title{
     font-family: Raleway;
     font-style: normal;
@@ -30,21 +58,37 @@
     font-size: 30px;
     line-height: 41px;
     display: flex;
-    align-items: center;
+    padding-bottom: 40px;
 }
 
-.description{
-    box-sizing: border-box;
-    max-width: 200px;
+.description{    
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    align-items: center;
+    width: 570px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
 }
-img{
-    float: right;
+
+.button{
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+#img{
     width: 470px;
     height: 500px;
 }
