@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(232, 223, 240);
+}
+
+nav{
+    border: 1px solid black;
+}
+section{
+    border:  1px solid black;
+    
+}
+aside{
+    border: 1px solid black;
+}
+
+.golova{
+    border: 1px solid black;
+    background-color: rgba(196, 123, 238, 0.514);
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    border: 1px solid black;
+
+}
+article{
+    border: 1px solid black;
+}
+footer{
+    border: 1px solid black;
+}
+
+.task{
+    
+}
+
+.element{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.element:hover{
+    transform: rotate(30deg);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-chess-board{
+    transform: scale(2);
+    color: blueviolet;
+}
+
