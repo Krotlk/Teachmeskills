@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background: linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #272D4E;
+    width: 520px;
+    height: 140px;
+}
+
+
+.description-block{
+    width: 730px;
+    height: 391px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+    background-image: url(../Junk/DZ_06/”.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.description-block::after{
+    background-image: url(../Junk/DZ_06/left_Union.png);
+}
+
+.description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26.7px;
+    line-height: 39px;
+    width: 566.17px;
+    height: 198px;
+    text-align: center;
+    
+    color: #94A2B3;
+    
+
+}
+
+.image-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
