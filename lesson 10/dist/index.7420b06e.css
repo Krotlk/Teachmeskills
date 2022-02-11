@@ -1,0 +1,27 @@
+.width{
+    width: 1170px;
+    display: flex;
+
+}
+
+.container{
+    width: 255px;
+    height: 388px;
+    background: #F2F6FA;
+}
+
+.da{
+    width: 257px;
+    height: 257px;
+}
+
+.asd{
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    &__image {
+
+    }
+}
