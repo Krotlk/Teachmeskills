@@ -1,0 +1,32 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px 125px;
+    
+}
+
+.content{
+    background: rgba(187, 24, 187, 0.932);
+    width: 100px;
+    height: 100px;
+}
+
+.tri{
+    grid-column: 3;
+    grid-row: 1;
+    height: 225px;
+}
+
+.sem{
+    grid-column: 4;
+}
+
+.first{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.second{
+    width: 200px;
+}
