@@ -86,7 +86,7 @@ section{
     width: 170px;
     height: 0px;
     border: 1px solid #FFFFFF;
-    text-align: left;
+    
     
 
 }
@@ -223,7 +223,10 @@ display:flex;
 justify-content: center;
 margin-top: 72px;
 border: none;
+
 }
+
+
 
 footer{
     background: #F8EFEF;

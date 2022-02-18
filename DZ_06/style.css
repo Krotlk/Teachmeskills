@@ -42,10 +42,7 @@ body{
     align-items: center;
     z-index: 6;
 }
-.description-block::after{
-    background-image: url(../Junk/DZ_06/left_Union.png);
-    
-}
+
 
 .description{
     font-family: Roboto;
@@ -84,19 +81,30 @@ body{
 }
 
 .block__background_second::after{
-    background-image: url(/Junk/DZ_06/pic_green.svg);
+    background-image: url(../Junk/DZ_06/pic_green.svg);
     width: 213.76px;
     height: 472.16px;
+    content: "";
+    z-index: 1;
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    position:absolute;
+    left: 30%;
+    top: 50%;
 }
 
 
-.block__background::before{
+.description-block::before{
     content: "";
     width: 213.76px;
     height: 472.16px;
     z-index: 1;
     transform: rotate(90deg);
     background-image: url(../Junk/DZ_06/pic_red.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 54%;
+    top: -1%;
 }
 
 .image__block{
