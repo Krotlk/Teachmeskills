@@ -72,8 +72,13 @@
 
 
 .comment::after{
-    content: url(../Junk/DZ_07/Polygon\ 1.png);
+    content: "";
+    background-image: url(../Junk/DZ_07/Polygon_1.png);
+    background-repeat: no-repeat;
+    width: 51px;
+    height: 20px;
     transform: translate(-220px, 100px);
+
 }
 
 .employee-block{
