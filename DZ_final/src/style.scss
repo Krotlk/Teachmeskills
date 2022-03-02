@@ -22,6 +22,20 @@ body{
     margin: auto;
 }
 
+
+.description{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
 header{
     width: 100%;
     display: flex;
@@ -373,13 +387,10 @@ footer{
     
 }
 
-
 #img{
     width: 470px;
     height: 500px;
 }
-
-
 
 .hat {
     display: flex;
@@ -425,12 +436,6 @@ footer{
     }
     
 }
-
-
-
-
-
-
 
 .container__about{
     margin: 0 auto;
@@ -736,6 +741,62 @@ footer{
     }
 }
 
+
+.section_contacts{
+    .section_download{
+        background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../Junk/DZ_final/image.png);
+        height: 442px;
+        .title{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            
+            color: #FFFFFF;    
+        }
+        .separator{
+            width: 170px;
+            height: 0px;
+            border: 1px solid #FFFFFF;    
+        }  
+        .description{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #FFFFFF;
+                
+        }  
+        .download-button{
+            border: 2px solid #FFFFFF;
+            box-sizing: border-box;
+            width: 270px;
+            height: 58px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-transform: capitalize;
+            background-color: transparent;
+            color: #FFFFFF;     
+        }
+    }
+}
 
 
 
