@@ -54,9 +54,19 @@ console.log(wordLength);
 
 //task 6
 
+let number = 6;
+let stringName = "Aboba";
+let whiteIsWhite = true;
+
+console.log("number:", number, "have type:", typeof( number ));
+console.log("name:", stringName, "have type:", typeof( stringName ));
+console.log("color:", whiteIsWhite, "have type:", typeof( whiteIsWhite ));
+
+
 //task 7
 
 let userName = prompt("Enter your name");
 let userAge = prompt("Enter your age");
 
 console.log("Your name:", userName,",", "Your age:", userAge);
+ 
