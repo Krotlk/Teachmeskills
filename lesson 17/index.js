@@ -109,3 +109,49 @@ if (key && documents && pen == true, apple || orange == true) {
 
 //task 5
 
+let x = prompt("Enter your number");
+
+if (x % 5 == 0 && x % 3 == 0) {
+    console.log("FizBuz");
+} else if (x % 5 == 0) {
+    console.log("Fiz");
+} else if (x % 3 == 0) {
+    console.log("Buz");
+} else {
+    console.log("Wrong number =(");
+}
+
+//task 6
+
+let yourAge = prompt("Enter your age");
+
+if (yourAge > 18) {
+    alert("Попей пивка");
+} else if (yourAge >= 16 && yourAge <= 18) {
+    alert("Можешь выкурить сигаретку, только маме не говори");
+} else {
+    alert("Пей колу");
+}
+
+//task 7
+
+let navigation = prompt("Enter your side?");
+
+switch (navigation) {
+    case "юг": 
+        console.log("на юг пойдешь счастье найдешь");
+        break;
+    case "север":
+        console.log("на север пойдешь много денег найдешь");
+        break;
+    case "запад":
+        console.log("на запад пойдешь верного друга найдешь");
+        break;
+    case "восток":
+        console.log("на восток пойдешь разработчиком станешь");
+        break;
+    default:
+        console.log("try again");
+
+}
+ 
