@@ -76,16 +76,21 @@ alert( "Sum of your overpayment" + ": " + loanPercents() );
 
 //task 3
 
-/*let str = prompt("Enter your string");
+let str = "qwertyuiop";
 let x = +prompt("начало строки");
 let y = +prompt("конец строки");
 
 function trimString(str, x, y) {
-    let strCut = str[2] + str[4];
-    return strCut;
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+        if (i >= x && i <= y) {
+            result += str[i];
+        } 
+    }
+    return result;
 }
 
-console.log(trimString());*/
+console.log(trimString(str, x, y));
 
 //task 4
 
